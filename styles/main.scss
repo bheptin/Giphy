@@ -1,0 +1,46 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  color: white;
+  text-align: center;
+  background-image: url("https://theongoingrms.files.wordpress.com/2013/07/giphy-riffed-1.gif?w=500");
+  p {
+    width: 75%;
+    margin: auto;
+  }
+}
+
+#gif_container {
+  .terms {
+    margin-top: 20px;
+    .fa {
+      color: blue;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
+
+#home_container {
+  text-align: center;
+  p {
+    img {
+      text-align: center;
+    }
+  }
+}
+
+.navbar-fixed-bottom {
+  color: gray;
+  p {
+    float: right;
+  }
+}
